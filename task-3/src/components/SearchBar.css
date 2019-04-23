@@ -1,0 +1,16 @@
+input {
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0.1em solid grey;
+  line-height: 2em;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.clear-search {
+  margin-top: -1.6em;
+  margin-left: auto;
+}

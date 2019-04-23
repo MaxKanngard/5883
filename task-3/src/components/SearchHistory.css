@@ -1,0 +1,19 @@
+.search-history-container {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.clear-history {
+  float: right;
+  text-align: right;
+  font-weight: lighter;
+  font-size: 0.5em;
+  color: grey;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.history-item {
+  display: flex;
+  border-bottom: 0.02em solid lightgrey;
+}

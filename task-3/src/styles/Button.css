@@ -1,0 +1,13 @@
+button {
+  display: flex;
+  font-weight: 200;
+  color: grey;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+button::after {
+  content: '\2715';
+}
